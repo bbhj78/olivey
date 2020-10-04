@@ -1,0 +1,37 @@
+*{margin:0; padding:0;}
+header{margin:0 auto;width:1020px;height:120px;}
+.header_top{width:1020px; height:50px;}
+.login{float:right;}
+.login li{margin-top: 8px;list-style: none;font-size: 12px; float:left;padding:0 9px 0px 10px;}
+.login li:nth-child(7){padding:0px 0px 0px 10px;}
+.logo{display:flex;justify-content: space-between;}
+.logo1 img{width:248px; height:41px;}
+.logo2 .text{border-radius: 20px 20px 20px 20px;border: 3px solid lightgreen;width:340px; height:41px;}
+.text{font-size: 12px;display:flex;justify-content: space-between;align-items: center;}
+.text p{margin-left: 15px;}
+.text img{width:50px; height:50px;}
+.logo3{display:flex;align-items: center;}
+.text2 span{font-size: 13px;padding:0 15px;}
+.text2 span:nth-child(1){border-right: 1px solid silver;}
+section{border-top: 1px solid silver;border-bottom: 1px solid black;}
+.menu{ display:flex;width:1020px;height:44px; margin:0 auto;}
+.menu span{margin-left: 15px;font-weight: bold;font-size: 16px;flex-grow: 1;display:flex;align-items: center;}
+.menu .ca{width:168px; height:44px;}
+.ca{border-left: 1px solid silver;border-right: 1px solid silver;display:flex;justify-content: center;align-items: center;}
+content{width:100%;height:450px;}
+content img{position: absolute;}
+.menulist{margin-top: 15px;height:435px;display:flex;flex-direction: column;}
+.menulist li{flex:1;font-size: 14px;color:white;font-weight: bold;padding:0px 23px;line-height: 25px;}
+.menulist li:hover{background-color: rgba(15,15,15,0.6);}
+.menulist_li div{border: 1px solid black;width: 220px;height: 450px;background-color: white;position: absolute;left: 170px;top: 0;display: none;}
+.menulist_li:hover div{display:block;}
+.L_menu{position:absolute;width:170px;height:450px;background-color: rgba(15,15,15,0.4);}
+.menulist li:nth-child(15){background-color: gray;}
+.L_menu ul li{list-style: none;cursor: pointer;}
+.ab{padding-left: 20px;padding-top: 40px;color:black;}
+.ab span{border-bottom: 1px solid black;font-size: 12px;}
+.ab h3{padding-top: 8px;font-weight: bold;font-size: 18px;}
+.ab p{padding-top: 3px;text-decoration: line-through;font-size:18px;color:silver;}
+.ab h1{color:red;}
+.ab img{padding-top: 85px;width:200px; height:200px;}
+.efg{width:1020px; height:100%;margin:0 auto;}
